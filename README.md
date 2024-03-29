@@ -6,7 +6,7 @@ Writes the SQL used to mark the next change you apply as executed in your databa
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/mark-next-changeset-ran-sql@v4.26.0
+- uses: liquibase-github-actions/mark-next-changeset-ran-sql@v4.27.0
   with:
     # The root changelog file
     # string
@@ -70,7 +70,7 @@ The liquibase mark next changeset ran sql action accepts all valid liquibase glo
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/mark-next-changeset-ran-sql@v4.26.0
+  - uses: liquibase-github-actions/mark-next-changeset-ran-sql@v4.27.0
     with:
       changelogFile: ""
       url: ""
